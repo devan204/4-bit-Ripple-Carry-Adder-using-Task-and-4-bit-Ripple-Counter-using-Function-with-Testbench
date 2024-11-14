@@ -8,6 +8,7 @@ Computer with Vivado or any Verilog simulation software.
 Verilog HDL compiler.
 
 # Verilog Code
+```
     module ripple_carry_adder_4bit (
     input [3:0] A,      // 4-bit input A
     input [3:0] B,      // 4-bit input B
@@ -40,10 +41,10 @@ Verilog HDL compiler.
     assign Sum = sum_temp;
 
     endmodule
-
+```
 
 # Test bench for Ripple carry adder
-
+```
     module ripple_carry_adder_4bit_tb;
 
     reg [3:0] A, B;
@@ -85,6 +86,7 @@ Verilog HDL compiler.
     end
 
     endmodule
+```
 
 # Output for Ripple carry adder
 
@@ -92,7 +94,7 @@ Verilog HDL compiler.
 
 
 # Verilog Code ripple counter
-
+```
     module ripple_counter_4bit (
     input clk,           // Clock signal
     input reset,         // Reset signal
@@ -116,9 +118,9 @@ Verilog HDL compiler.
     end
 
     endmodule
-
+```
 # TestBench
-
+```
     module ripple_counter_4bit_tb;
 
     reg clk;
@@ -152,7 +154,7 @@ Verilog HDL compiler.
     end
 
     endmodule
-
+```
 # Output for Ripple Counter
 
 ![Screenshot 2024-11-12 212437](https://github.com/user-attachments/assets/38b05429-8e3e-44d2-a36b-b5903f16aaa8)
